@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-29T07:22:43.657668+00:00",
+  "pptx": "ecnu-report-starter.pptx",
+  "pptx_sha256": "c5a992d7248cdf22a6f94e941b055756dbd717ecf9e5db998ba9bc1060347eb4",
+  "errors": [],
+  "text_bound_warnings": [],
+  "visual_review": "not_performed_by_this_script",
+  "com_progid": "PowerPoint.Application",
+  "application_name": "Microsoft PowerPoint",
+  "application_version": "12.0",
+  "application_path": "C:\\Software\\WPSOFF~1\\1210~1.291\\office6",
+  "slide_count": 10,
+  "rendered_images": [
+    "slide_01.png",
+    "slide_02.png",
+    "slide_03.png",
+    "slide_04.png",
+    "slide_05.png",
+    "slide_06.png",
+    "slide_07.png",
+    "slide_08.png",
+    "slide_09.png",
+    "slide_10.png"
+  ],
+  "pdf": "ecnu-report-starter.pdf",
+  "pdf_sha256": "caebd595b6fe3c3a08c88a31267307b5e5a4f31400e693fd24cf9e57a335017a",
+  "source_unchanged": true,
+  "render_complete": true,
+  "passed": true,
+  "actual_provider": "WPS Office"
+}

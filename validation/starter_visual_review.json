@@ -1,0 +1,82 @@
+{
+  "checked_utc": "2026-10-29T07:25:25.967536+00:00",
+  "pptx_sha256": "c5a992d7248cdf22a6f94e941b055756dbd717ecf9e5db998ba9bc1060347eb4",
+  "pdf_sha256": "caebd595b6fe3c3a08c88a31267307b5e5a4f31400e693fd24cf9e57a335017a",
+  "reviewer": "primary assistant, direct rendered-page inspection",
+  "provider": "WPS Office",
+  "status": "passed",
+  "slides": [
+    {
+      "slide": 1,
+      "preview_sha256": "340b05df0ba0645e87a71b41ad648d19d886cc130bdde1ab3aeb4f55c1c42992",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 2,
+      "preview_sha256": "608e2ef054130d825d4f43b147607acf232836c9c82cb623ce013bda990d14d9",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 3,
+      "preview_sha256": "e23a5f27818ce08f22131d175b398baefa6f496a41e982b7796b2752f9676e17",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 4,
+      "preview_sha256": "21e7a61cd7744e7ecb5b12569b5f0fcf9ceb527db5fb864455c4b9f929f2b37b",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 5,
+      "preview_sha256": "a1f339b04fd99411237dbf8bfa37561361c2a6d9335fff4801928aabe46d304c",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 6,
+      "preview_sha256": "c7025bd86db0ee245f2b3b85695594ce24f6e475e2753356c44a4409f890d0a4",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 7,
+      "preview_sha256": "569241b56693be755fd8b090ef2f388efad87efff05609db3c02778ca12ecd1c",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 8,
+      "preview_sha256": "0c3745dbe3de274a298e3e1387652a14dc0af19782a4e0741abf08aca9f19a4f",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 9,
+      "preview_sha256": "3c1e1360d5625965e2672100822f309e0f5c86eb5e61559da5fcce5b6c3d225d",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    },
+    {
+      "slide": 10,
+      "preview_sha256": "41b02f6a677c5a1155eefeb63e9d9587b195caf8936e34c49cfc78ffc8d654a9",
+      "viewed": true,
+      "clipping_or_overlap_observed": false
+    }
+  ],
+  "checks": [
+    "all ten previews viewed individually",
+    "template artwork and heading roles preserved",
+    "readable Chinese with no observed missing glyphs",
+    "process directions and attached modules coherent",
+    "example numerical data visibly labeled",
+    "native chart axis labels and legend legible"
+  ],
+  "limits": [
+    "not tested with Microsoft PowerPoint desktop",
+    "longer replacement text requires a fresh visual review"
+  ]
+}

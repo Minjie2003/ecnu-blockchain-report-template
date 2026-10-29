@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "Two-slide custom report supports a different slide count and no cover",
+    "Four modules have three attached connectors",
+    "Decimal and missing chart values match embedded XLSX exactly",
+    "Frozen approved source also passes relationship and workbook checks"
+  ],
+  "source_mutations": false,
+  "visual_review": "not performed by this script"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "slides": 3,
+      "status": "passed",
+      "metadata": {
+        "Slides": "3",
+        "Notes": "3",
+        "HiddenSlides": "0"
+      },
+      "legacy_titles_removed": true
+    },
+    {
+      "slides": 10,
+      "status": "passed",
+      "metadata": {
+        "Slides": "10",
+        "Notes": "10",
+        "HiddenSlides": "0"
+      },
+      "legacy_titles_removed": true
+    }
+  ],
+  "negative_stale_title_vector_rejected": true,
+  "formal_starter_regenerated": false
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "pptx": "installed-skill-report.pptx",
+  "pptx_sha256": "a931a4a8270fd956ff6b8fc13d16c0868107f9bd745cfd1a1901b335abfb8477",
+  "slide_count": 10,
+  "native_table_slides": [
+    4
+  ],
+  "charts": [
+    {
+      "slide": 7,
+      "chart": "ppt/charts/chart1007.xml",
+      "workbook": "ppt/embeddings/combined_chart1007.xlsx",
+      "cached_cells_checked": 14
+    }
+  ],
+  "attached_connectors": 2,
+  "notes_slides": 10,
+  "errors": [],
+  "warnings": [],
+  "visual_review": "not performed by this script",
+  "application_editability_test": "not performed by this script"
+}

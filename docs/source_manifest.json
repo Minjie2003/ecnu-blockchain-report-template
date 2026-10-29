@@ -1,0 +1,42 @@
+{
+  "reference_assets": [
+    {
+      "path": "templates/reference/approved-week9.pptx",
+      "source_repository": "https://github.com/Minjie2003/hotrevoke",
+      "source_commit": "dfbf5372bced57ee97a58598548cfe9502b00b7c",
+      "source_path": "presentations/11_13_week9_paper_revision/HotRevoke_Week9_查询契约与证据边界.pptx",
+      "sha256": "360c1f6e1bda2a8590360f2ece01395b50f160e0a3ef16f401e9975f3a5e4fa6"
+    },
+    {
+      "path": "templates/reference/ecnu-progress-original.pptx",
+      "source_repository": "https://github.com/Minjie2003/hotrevoke",
+      "source_commit": "dfbf5372bced57ee97a58598548cfe9502b00b7c",
+      "source_path": "presentations/references/进展汇报 模板.pptx",
+      "sha256": "b5272bd5722667b842e0e96ee1fc55580d2413656015bcdd51f4b308c673dc01"
+    },
+    {
+      "path": "examples/hotrevoke-week9/approved-report.pptx",
+      "source_repository": "https://github.com/Minjie2003/hotrevoke",
+      "source_commit": "dfbf5372bced57ee97a58598548cfe9502b00b7c",
+      "source_path": "presentations/11_13_week9_paper_revision/HotRevoke_Week9_查询契约与证据边界.pptx",
+      "sha256": "360c1f6e1bda2a8590360f2ece01395b50f160e0a3ef16f401e9975f3a5e4fa6"
+    },
+    {
+      "path": "examples/hotrevoke-week9/approved-report.pdf",
+      "source_repository": "https://github.com/Minjie2003/hotrevoke",
+      "source_commit": "dfbf5372bced57ee97a58598548cfe9502b00b7c",
+      "source_path": "presentations/11_13_week9_paper_revision/HotRevoke_Week9_查询契约与证据边界.pdf",
+      "sha256": "fb532340b35b60ddfa0d02135189c34dd0ce43d10213dc3ce5f4d5a5885add08"
+    },
+    {
+      "path": "examples/hotrevoke-week9/SPEAKER_NOTES.md",
+      "source_repository": "https://github.com/Minjie2003/hotrevoke",
+      "source_commit": "dfbf5372bced57ee97a58598548cfe9502b00b7c",
+      "source_path": "presentations/11_13_week9_paper_revision/SPEAKER_NOTES.md",
+      "sha256": "d6d5a0b4559f9935d948db8f4c23c8028de1a7d906518ee939f78117bbbfa22e",
+      "source_sha256": "11dfb7f52540a1425add8498eb4398cb6af8120ff1c8162cee47dc84ea6034f4",
+      "transformation": "CRLF normalized to LF; text unchanged"
+    }
+  ],
+  "experiments_rerun": false
+}

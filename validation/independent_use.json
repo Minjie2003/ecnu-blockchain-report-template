@@ -1,0 +1,137 @@
+{
+  "schema": "ecnu-report-independent-use-v1",
+  "checked_utc": "2026-10-29T07:24:39.760539+00:00",
+  "status": "passed_with_unperformed_visual_checks",
+  "scope": "Independent first-use build and recheck after three fixes. Only this validation record and private test artifacts were written. No COM, network publishing, Git writes or new research experiments.",
+  "topic": "传感器数据缺测检查",
+  "artifacts": {
+    "content": ".validation/independent-use-final/content.json",
+    "pptx": ".validation/independent-use-final/sensor-missing-data.pptx",
+    "structural_validation": ".validation/independent-use-final/structure-validation.json",
+    "installed_skill": ".validation/independent-use-final/installed-skills/ecnu-blockchain-report-independent-final"
+  },
+  "pptx_sha256": "1df72dc2df342f832276304aa9444566a42715fc28953b57cd86301a3209db55",
+  "commands": [
+    {
+      "command": [
+        "scripts/install_skill.py",
+        "--skills-dir",
+        ".validation/independent-use-final/installed-skills",
+        "--name",
+        "ecnu-blockchain-report-independent-final"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_report.py",
+        "--content",
+        "../../content.json",
+        "--output",
+        "../../sensor-missing-data.pptx"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/validate_report.py",
+        "../../sensor-missing-data.pptx",
+        "--expected-slides",
+        "3",
+        "--output",
+        "../../structure-validation.json"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "local_link_checks": {
+    "README.md": {
+      "existing": 17,
+      "missing": []
+    },
+    "skills/ecnu-blockchain-report/SKILL.md": {
+      "existing": 2,
+      "missing": []
+    },
+    ".validation/independent-use-final/installed-skills/ecnu-blockchain-report-independent-final/README.md": {
+      "existing": 17,
+      "missing": []
+    },
+    ".validation/independent-use-final/installed-skills/ecnu-blockchain-report-independent-final/SKILL.md": {
+      "existing": 2,
+      "missing": []
+    }
+  },
+  "custom_skill_name": "ecnu-blockchain-report-independent-final",
+  "invocation_checks": {
+    "readme_custom_invocation": true,
+    "skill_name_matches": true,
+    "agent_custom_invocation": true,
+    "no_stale_default_invocation": true
+  },
+  "metadata_checks": {
+    "Slides": "3",
+    "Notes": "3",
+    "HiddenSlides": "0",
+    "removed_stale_fields": {
+      "Words": true,
+      "Paragraphs": true,
+      "HeadingPairs": true,
+      "TitlesOfParts": true
+    },
+    "no_old_research_titles": true,
+    "actual_slide_xml_count": 3,
+    "actual_notes_xml_count": 3
+  },
+  "structural_result": {
+    "status": "passed",
+    "pptx": "sensor-missing-data.pptx",
+    "pptx_sha256": "1df72dc2df342f832276304aa9444566a42715fc28953b57cd86301a3209db55",
+    "slide_count": 3,
+    "native_table_slides": [],
+    "charts": [],
+    "attached_connectors": 2,
+    "notes_slides": 3,
+    "errors": [],
+    "warnings": [],
+    "application_metadata": "checked generated-deck counts and removed inherited statistics",
+    "visual_review": "not performed by this script",
+    "application_editability_test": "not performed by this script"
+  },
+  "initial_findings_and_fixes": [
+    {
+      "finding": "The installed README linked to LICENSE and NOTICE.md, but the installer did not copy them.",
+      "fix": "The installer now copies both files.",
+      "recheck": "Both files exist and all installed README local links resolve.",
+      "status": "verified_fixed"
+    },
+    {
+      "finding": "Custom-name installation renamed SKILL.md and agent metadata but left the README invocation at the default name.",
+      "fix": "The installer now applies the custom name to README.md as well.",
+      "recheck": "README invocation, SKILL frontmatter and agent invocation match the custom installed name; no standalone old invocation remains.",
+      "status": "verified_fixed"
+    },
+    {
+      "finding": "A three-slide report retained prior research titles and incorrect Notes/title statistics in docProps/app.xml.",
+      "fix": "The builder removes inherited optional word/paragraph/title vectors and updates slide, note and hidden-slide counts.",
+      "recheck": "Slides=3 and Notes=3 match actual package parts; obsolete fields and old research titles are absent.",
+      "status": "verified_fixed"
+    }
+  ],
+  "evidence_labels": {
+    "new_report": "Conceptual workflow example with no real experiment or performance claim.",
+    "starter": "Chart example_data flag and visible example-data warning separate fabricated demonstration values from experiments.",
+    "original_case": "README identifies HotRevoke values as the original project-specific experiment evidence."
+  },
+  "first_audit_public_scan": {
+    "result": "No old user-specific absolute-path dependency or obvious credentials/configuration found in the scanned public scripts, documentation, JSON and PPTX XML.",
+    "scope_limit": "Original scan excluded validation records and ignored scratch directories; no blanket security certification is claimed."
+  },
+  "limitations": {
+    "new_report_visual_review": "not performed",
+    "application_editability_test": "not performed",
+    "com_rendering": "not performed",
+    "external_link_online_check": "not performed"
+  },
+  "formal_code_modified": false
+}

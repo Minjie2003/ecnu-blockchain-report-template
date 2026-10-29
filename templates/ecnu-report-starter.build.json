@@ -1,0 +1,12 @@
+{
+  "pptx": "ecnu-report-starter.pptx",
+  "pptx_sha256": "c5a992d7248cdf22a6f94e941b055756dbd717ecf9e5db998ba9bc1060347eb4",
+  "slides": 10,
+  "template_sha256": "360c1f6e1bda2a8590360f2ece01395b50f160e0a3ef16f401e9975f3a5e4fa6",
+  "content_sha256": "82db6f12067b3c6e7985e8a43488c6016e34a0372cf624bd0f45aa38d9189ad7",
+  "chart_slides": [
+    7
+  ],
+  "rendered": false,
+  "visual_review": "required after rendering"
+}

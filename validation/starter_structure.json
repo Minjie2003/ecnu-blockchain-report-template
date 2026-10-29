@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "pptx": "ecnu-report-starter.pptx",
+  "pptx_sha256": "c5a992d7248cdf22a6f94e941b055756dbd717ecf9e5db998ba9bc1060347eb4",
+  "slide_count": 10,
+  "native_table_slides": [
+    4
+  ],
+  "charts": [
+    {
+      "slide": 7,
+      "chart": "ppt/charts/chart1007.xml",
+      "workbook": "ppt/embeddings/combined_chart1007.xlsx",
+      "cached_cells_checked": 14
+    }
+  ],
+  "attached_connectors": 2,
+  "notes_slides": 10,
+  "errors": [],
+  "warnings": [],
+  "application_metadata": "checked generated-deck counts and removed inherited statistics",
+  "visual_review": "not performed by this script",
+  "application_editability_test": "not performed by this script"
+}

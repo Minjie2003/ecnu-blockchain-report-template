@@ -1,0 +1,47 @@
+{
+  "checked_utc": "2026-10-29T07:23:18.782770+00:00",
+  "input_sha256": "c5a992d7248cdf22a6f94e941b055756dbd717ecf9e5db998ba9bc1060347eb4",
+  "temporary_copy": true,
+  "errors": [],
+  "application_path": "C:\\Software\\WPSOFF~1\\1210~1.291\\office6",
+  "application_version": "12.0",
+  "connector_count": 2,
+  "attached_before": true,
+  "moved_shape_id": 11,
+  "connector_geometry_before": [
+    [
+      604.32,
+      250.2,
+      44.64,
+      0.0
+    ],
+    [
+      312.24,
+      250.2,
+      44.64,
+      0.0
+    ]
+  ],
+  "connector_geometry_after": [
+    [
+      624.37,
+      250.2,
+      24.6,
+      10.0
+    ],
+    [
+      312.24,
+      250.2,
+      64.65,
+      10.0
+    ]
+  ],
+  "connector_followed": true,
+  "attached_after": true,
+  "native_chart_count": 1,
+  "reopened_slide_count": 10,
+  "text_edit_persisted": true,
+  "attached_after_reopen": true,
+  "source_unchanged": true,
+  "passed": true
+}
